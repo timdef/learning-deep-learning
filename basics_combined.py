@@ -4,7 +4,6 @@ def sigmoid(x):
 
 # Output (prediction) formula
 def output_formula(features, weights, bias):
-    features.dot(weights) + bias
     return sigmoid(features.dot(weights) + bias)
 
 # Error (log-loss) formula
