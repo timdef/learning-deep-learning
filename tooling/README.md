@@ -10,7 +10,7 @@ Run the command `conda env create -f environment.yml`
 
 This should download some packages. 
 
-You should now be able to `conda activate udacity` and have a fully loaded environment with PyTorch and Jupyter Notebooks.
+You should now be able to `conda activate udacity` (or the [appropriate command](https://conda.io/docs/user-guide/tasks/manage-environments.html?highlight=environment%20yml#activating-an-environment) for your OS) and have a fully loaded environment with PyTorch and Jupyter Notebooks.
 
 I recomment running `jupyter notebook` to ensure the above was successful.
 
