@@ -15,3 +15,5 @@ You should now be able to `conda activate udacity` and have a fully loaded envir
 I recomment running `jupyter notebook` to ensure the above was successful.
 
 If you run into any problems please open an issue here or reach out to me in the course Slack!
+
+More information about managing Anaconda environments [here](https://conda.io/docs/user-guide/tasks/manage-environments.html?highlight=environment%20yml#).
