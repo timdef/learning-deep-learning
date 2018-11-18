@@ -100,4 +100,3 @@ dependencies:
   - torchvision=0.2.1=py37_1
   - pip:
     - torch==0.4.1.post2
-prefix: /home/tim/anaconda2/envs/udacity
