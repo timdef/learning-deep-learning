@@ -1,18 +1,21 @@
 name: udacity
 channels:
-  - pytorch
   - anaconda
+  - pytorch
+  - conda-forge
   - defaults
 dependencies:
   - ca-certificates=2018.03.07=0
-  - certifi=2018.10.15=py37_0
-  - openssl=1.0.2p=h14c3975_0
   - pandas=0.23.4=py37h04863e7_0
   - pytz=2018.7=py37_0
+  - cycler=0.10.0=py_1
+  - kiwisolver=1.0.1=py37h2d50403_2
+  - pyparsing=2.3.0=py_0
   - anaconda=custom=py37_0
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
   - bleach=3.0.2=py37_0
+  - certifi=2018.10.15=py37_0
   - cffi=1.11.5=py37he75722e_1
   - dbus=1.13.2=h714fa37_1
   - decorator=4.3.0=py37_0
@@ -50,6 +53,7 @@ dependencies:
   - libxcb=1.13=h1bed415_1
   - libxml2=2.9.8=h26e45fe_1
   - markupsafe=1.1.0=py37h7b6447c_0
+  - matplotlib=3.0.1=py37h5429711_0
   - mistune=0.8.4=py37h7b6447c_0
   - mkl=2019.0=118
   - mkl_fft=1.0.6=py37h7dd41cf_0
@@ -62,6 +66,7 @@ dependencies:
   - numpy=1.15.4=py37h1d66e8a_0
   - numpy-base=1.15.4=py37h81de0dd_0
   - olefile=0.46=py37_0
+  - openssl=1.0.2p=h14c3975_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
   - parso=0.3.1=py37_0
